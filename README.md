@@ -47,7 +47,7 @@
       <button class="btn" id="addCart" style="background:#2ccf75">加入购物车</button>
       <button class="btn" id="checkout" style="background:#ffc658;color:#000">结算</button>
     </div>
-    <div class="note">输入当前技能等级（1–9），填 0 跳过该技能。填入无效数字会当0处理。<br>计算后可保存多个角色结果，点击结算按钮汇总，如需清空请刷新页面。<br><a href="https://space.bilibili.com/12370600" target="_blank" style="color:inherit;text-decoration:underline;"> AxelBeary 奚怡熊</a> 2025.8，Apache-2.0 license，建议手机端横屏使用。</div>
+    <div class="note">输入当前技能等级（1–9），填 0 跳过该技能。小数点后会被舍弃，填入无效数字会当0处理。<br>计算后可保存多个角色结果，点击结算按钮汇总，如需清空请刷新页面。<br><a href="https://space.bilibili.com/12370600" target="_blank" style="color:inherit;text-decoration:underline;"> AxelBeary 奚怡熊</a> 2025.8，Apache-2.0 license，建议手机端横屏使用。</div>
   </div>
 
   <div class="card">
