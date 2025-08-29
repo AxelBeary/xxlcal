@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="zh-Hans">
 <head>
   <meta charset="utf-8" />
@@ -167,9 +166,9 @@
     document.getElementById('sumTHigh').textContent=totals.train[4];
     document.getElementById('sumVoucher').textContent=totals.voucher;
     document.getElementById('summary').innerHTML=
-      `战斗心得 — 入门:${totals.combat[0]}, 初级:${totals.combat[1]}, 中级:${totals.combat[2]}, 进階:${totals.combat[3]}, 高级:${totals.combat[4]}<br/>`+
-      `必杀心得 — 入门:${totals.burst[0]}, 初级:${totals.burst[1]}, 中级:${totals.burst[2]}, 进階:${totals.burst[3]}, 高级:${totals.burst[4]}<br/>`+
-      `修行心得 — 入门:${totals.train[0]}, 初级:${totals.train[1]}, 中级:${totals.train[2]}, 进階:${totals.train[3]}, 高级:${totals.train[4]}<br/>`+
+      `战斗心得 — 入门:${totals.combat[0]}, 初级:${totals.combat[1]}, 中级:${totals.combat[2]}, 进阶:${totals.combat[3]}, 高级:${totals.combat[4]}<br/>`+
+      `必杀心得 — 入门:${totals.burst[0]}, 初级:${totals.burst[1]}, 中级:${totals.burst[2]}, 进阶:${totals.burst[3]}, 高级:${totals.burst[4]}<br/>`+
+      `修行心得 — 入门:${totals.train[0]}, 初级:${totals.train[1]}, 中级:${totals.train[2]}, 进阶:${totals.train[3]}, 高级:${totals.train[4]}<br/>`+
       `预计兑换券:${totals.voucher}`;
     return totals;
   }
